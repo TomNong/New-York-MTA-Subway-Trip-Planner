@@ -1,0 +1,18 @@
+3.  Test ML predict lambda
+4.  LCD display that say whether to take 1 or 2
+5.  Flow chart for aml predict  and how to set up-->tomorrow
+6.  SNS logic for sending 2-3 trip options
+7.  Proposal of directory --> where does each function/direction runs
+8.  Make plan trip and sensor run in one code --> next week
+9.  Write a im stuck -> diskutils and stuff 
+
+
+
+Documentation
+1. Docs --> project overview
+2. Flow chart
+3. tech guide --> from docs,  copy paste
+4. How to set up AWS services --> which all we need
+5. diskutils 
+6. Mention that two metods boto3 based and AWS IoT based
+7. 

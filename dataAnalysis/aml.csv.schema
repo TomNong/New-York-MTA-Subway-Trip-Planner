@@ -1,0 +1,17 @@
+{ "version": "1.0",
+
+"recordAnnotationFieldName": null,
+
+"recordWeightFieldName": null,
+
+"targetFieldName": "first",
+
+"dataFormat": "CSV",
+
+"dataFileContainsHeader": true,
+
+"attributes": [
+
+{ "fieldName": "delta", "fieldType": "NUMERIC" }, { "fieldName": "timeToReachExpressStation", "fieldType": "NUMERIC" },  { "fieldName": "first", "fieldType": "BINARY" }, { "fieldName": "day", "fieldType": "CATEGORICAL" } ],
+
+"excludedVariableNames": [] }
