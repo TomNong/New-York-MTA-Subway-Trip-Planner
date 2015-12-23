@@ -89,7 +89,7 @@ def snsNotificate(threadName, interval):
     except:
         print('sns exception')
 try:
-   thread.start_new_thread( snsNotificate, ("Thread-sns", 1800,) )
+   thread.start_new_thread( snsNotificate, ("Thread-sns", configure.notificateInterval,) )
 except:
    print "Error: unable to start thread"
 
@@ -101,7 +101,7 @@ while True:
     connCount = 0
     body = {}
     child = pexpect.spawn('hcitool lescan')
-    time.sleep(5)
+    time.sleep(configure.scanInterval)
     child.expect('.+')
     #print(child.after)
     split = child.after.split()
